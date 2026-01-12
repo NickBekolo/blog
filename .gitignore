@@ -1,25 +1,7 @@
-# Dépendances
+
 node_modules/
 npm-debug.log
 npm-error.log
 
-# Variables d'environnement
+
 .env
-.env.local
-.env.*.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Logs
-logs/
-*.log
-
-# Fichiers temporaires
-tmp/
-temp/
