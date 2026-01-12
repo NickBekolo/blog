@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">Blog</a>
+            <ul class="nav-links">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/page/backoffice.html" id="backofficeLink" class="hidden">Mes Articles</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <span id="userInfo" class="hidden"></span>
+                <a href="/login" id="loginLink" class="btn btn-primary">Se connecter</a>
+                <button id="logoutBtn" class="btn btn-outline hidden">Déconnexion</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Articles Récents</h1>
+        <div id="articles"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Blog. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="/js/home.js"></script>
+</body>
+</html>
